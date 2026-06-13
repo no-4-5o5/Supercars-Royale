@@ -1,41 +1,40 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Unity Game</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { margin: 0; background: black; }
-    #gameContainer { width: 100vw; height: 100vh; }
-    canvas { width: 100%; height: 100%; }
-  </style>
+	<meta name="robots" content="noindex,nofollow" />
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>SlashZ </title>
+	<script>
+	window.config = {
+		loader: 'unity-2020',
+		debug: false,
+		maxRatio: 16 / 9,
+		minRatio: 9 / 16,
+
+		title: 'SlashZ',
+		thumbnail: 'https:\/\/img.poki.com\/09d7f702a92734b85478776d7514ce17.jpeg',
+		numScreenshots:  6 ,
+
+		unityVersion: '2020.1.10f1',
+		unityWebglBuildUrl: '',
+
+		fileSize:  23 ,
+		cachedDecompressedFileSizes: {
+			'WebGL_SlashZ.data.unityweb':  212 ,
+			'WebGL_SlashZ.framework.js.unityweb':  212 ,
+			'WebGL_SlashZ.loader.js':  212 ,
+			'WebGL_SlashZ.wasm.unityweb':  212 ,
+		},
+		"metadata": {"poki_template_version":1,"background_color":"#231F20","code_filename":"WebGL_SlashZ.wasm.unityweb","company_name":"No PowerUp","data_filename":"WebGL_SlashZ.data.unityweb","decompression_fallback":"Gzip","development_player":"false","framework_filename":"WebGL_SlashZ.framework.js.unityweb","height":"960","loader_filename":"WebGL_SlashZ.loader.js","product_name":"Slashz","product_version":"0.1","splash_screen_style":"Dark","total_memory":"268435456","unity_version":"2020.1.10f1","use_data_caching":"true","use_threads":"false","use_wasm":"true","use_webgl_1_0":"true","use_webgl_2_0":"true","width":"600"}
+	};
+	</script>
+<!-- will be copied to the resulting head //-->
 </head>
-
 <body>
-  <div id="gameContainer"></div>
-
-  <script src="9853637125e801e9aae48e78dbbdcfca.loader.js"></script>
-
-  <script>
-    const buildUrl = ".";
-
-    const config = {
-      dataUrl: buildUrl + "0efc5f5920e387ddd900893f445adc64.data.unityweb",
-      frameworkUrl: buildUrl + "9beb3b25a77830e1a837a1192eaf008f.framework.js.unityweb",
-      codeUrl: buildUrl + "2af43bcf95e2c5402294f39cb5883fcb.wasm.unityweb",
-      streamingAssetsUrl: "StreamingAssets",
-      companyName: "Game",
-      productName: "Game",
-      productVersion: "1.0",
-    };
-
-    const container = document.querySelector("#gameContainer");
-
-    createUnityInstance(container, config).then((unityInstance) => {
-      console.log("Loaded!");
-    }).catch((message) => {
-      console.error(message);
-    });
-  </script>
+	<script src="./master-loader.js"></script>
+<!-- will be copied to the resulting body //-->
+<!-- will also be copied to the resulting body //-->
 </body>
 </html>
