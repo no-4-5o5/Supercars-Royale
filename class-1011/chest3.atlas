@@ -1,0 +1,17 @@
+chest3.png
+size:448,448
+filter:Linear,Linear
+pma:true
+scale:0.35
+s1
+bounds:2,16,271,208
+rotate:90
+s2
+bounds:277,188,258,135
+rotate:90
+s3
+bounds:212,59,234,49
+s4
+bounds:212,110,223,76
+s5
+bounds:2,289,273,157

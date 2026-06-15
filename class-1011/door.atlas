@@ -1,0 +1,11 @@
+door.png
+size:1214,1214
+filter:Linear,Linear
+pma:true
+door01
+bounds:2,2,462,695
+rotate:90
+frame
+bounds:2,466,758,746
+left_door
+bounds:762,502,385,710
